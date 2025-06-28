@@ -4,7 +4,7 @@ import Home from './componenets/Home'
 import Featured from './componenets/Featured'
 import SectionBar from './componenets/SectionBar'
 import FundingCalculator from './componenets/FundingCalculator'
-import WhoWeFund from './componenets/whoWeFund'
+import WhoWeFund from './componenets/WhoWeFund'
 import HighlightSection from './componenets/HighlightSection'
 import LocomotiveScroll from 'locomotive-scroll';
 import AboutBrand from './componenets/AboutBrand'
