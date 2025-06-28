@@ -1,0 +1,54 @@
+@import "tailwindcss";
+@font-face {
+  font-family: 'logo';
+  src: url(/public/Fonts/Sonar\ Hubermann\ -\ SaintRegus-SemiBoldExpanded.ttf); 
+}
+@font-face {
+  font-family: 'head';
+  src: url(/public/Fonts/Fontspring-DEMO-capturanow-bold.otf); 
+}
+@font-face {
+  font-family: 'headb';
+  src: url(/public/Fonts/Fontspring-DEMO-capturanow-extrabold.otf); 
+}
+
+@keyframes rotate-hover {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hover-rotate:hover {
+  animation: rotate-hover 60s linear infinite;
+}
+.range-input::-webkit-slider-thumb {
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 9999px;
+  background: #22c55e; /* Tailwind green-500 */
+  cursor: pointer;
+  margin-top: -6px; /* aligns thumb with track */
+}
+
+.range-input::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.range-input::-webkit-slider-runnable-track {
+  height: 4px;
+  background: #ecffe1; /* Tailwind green-300 */
+  border-radius: 9999px;
+}
+
+.range-input::-moz-range-track {
+  height: 4px;
+  background: #86efac;
+  border-radius: 9999px;
+}
